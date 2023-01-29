@@ -1,5 +1,5 @@
 <h2 align="center">
-  Space Pizza
+  Organo
 </h2>
 
 > Status: Done.
@@ -21,12 +21,12 @@
 </p>
 
 <p align="center">
-  <img src="github\images\banner-organo.png" width="100%" />
+  <img src="github\images\organo.png" width="100%" />
 </p>
 
 ## 💻 Projeto
 
-Site para pizzaria.
+Site para organizar times em forma de organograma.
 
 Dependências usadas no projeto:
 
