@@ -32,10 +32,11 @@ Dependências usadas no projeto:
 
 - [React.js](https://reactjs.org/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Projeto disponivel em:
 
-<a href="" target="_blank">Organo</a>
+<a href="https://organo-ashy-two.vercel.app/" target="_blank">Organo</a>
 ## 📥 Instalação e execução
 
 Faça um clone desse repositório e acesse o diretório.
