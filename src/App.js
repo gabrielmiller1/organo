@@ -1,6 +1,7 @@
 import Banner from './components/Banner';
 import Form from './components/Form';
 import Team from './components/Team';
+import Footer from './components/Footer'
 import { useState } from 'react';
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
         secondaryColor={team.secondaryColor}
         employees={employees.filter(employee => employee.team === team.name)}
       />)}
+      <Footer />
     </div>
   );
 }
