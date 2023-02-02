@@ -6,43 +6,32 @@ import { useState } from 'react';
 
 function App() {
 
-  const teams = [
+  const [teams, setTeams] = useState([
     {
       name: 'Programação',
-      primaryColor: '#57C278',
-      secondaryColor: '#D9F7E9',
+      color: '#57C278',
     },
     {
       name: 'Front-End',
-      primaryColor: '#82cffa',
-      secondaryColor: '#e8f8ff',
+      color: '#82cffa',
     },
     {
       name: 'Data Science',
-      primaryColor: '#a6d157',
-      secondaryColor: '#f0f8e2',
+      color: '#a6d157',
     },
     {
       name: 'Devops',
-      primaryColor: '#e06b69',
-      secondaryColor: '#fde7e8',
+      color: '#e06b69',
     },
     {
       name: 'UX e Design',
-      primaryColor: '#db6ebf',
-      secondaryColor: '#fae9f5',
+      color: '#db6ebf',
     },
     {
       name: 'Mobile',
-      primaryColor: '#ffbads',
-      secondaryColor: '#fff5d9',
+      color: '#ffbad8',
     },
-    {
-      name: 'Inovação e Gestão',
-      primaryColor: '#ff8a29',
-      secondaryColor: '#ffeedf',
-    },
-  ]
+  ]);
 
   const initial = [
     {
@@ -197,6 +186,15 @@ function App() {
     console.log('onDelete')
   }
 
+  const changeColorTeam = (color, name) => {
+    setTeams(teams.map((team) => {
+      if (team.name === name) {
+        team.color = color;
+      }
+      return team;
+    }))
+  }
+
   return (
     <div className="App">
       <Banner />
@@ -204,10 +202,11 @@ function App() {
       {teams.map(team => <Team
         name={team.name}
         key={team.name}
-        primaryColor={team.primaryColor}
+        color={team.color}
         secondaryColor={team.secondaryColor}
         employees={employees.filter(employee => employee.team === team.name)}
         onDelete={deleteEmployee}
+        changeColor={changeColorTeam}
       />)}
       <Footer />
     </div>
