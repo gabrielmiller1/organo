@@ -226,10 +226,17 @@ function App() {
     }))
   }
 
+  const registerTeam = (newTeam) => {
+    setTeams([...teams, {...newTeam, id: uuidv4()}]);
+  }
+
   return (
     <div className="App">
       <Banner />
-      <Form teams={teams.map(team => team.name)} onRegisterEmployee={employee => setEmployees([...employees, employee])} />
+      <Form
+      registerTeam={registerTeam}
+      teams={teams.map(team => team.name)} 
+      onRegisterEmployee={employee => setEmployees([...employees, employee])} />
       {teams.map(team => <Team
         name={team.name}
         key={team.name}
