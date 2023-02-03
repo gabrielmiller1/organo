@@ -47,6 +47,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       team: teams[0].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'DANIEL ARTINE',
@@ -54,6 +55,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       team: teams[0].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'GUILHERME LIMA',
@@ -61,6 +63,7 @@ function App() {
       image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       team: teams[0].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'PAULO SILVEIRA',
@@ -68,6 +71,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       team: teams[0].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'JULIANA AMOASEI',
@@ -75,6 +79,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       team: teams[1].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'DANIEL ARTINE',
@@ -82,6 +87,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       team: teams[1].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'GUILHERME LIMA',
@@ -89,6 +95,7 @@ function App() {
       image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       team: teams[1].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'PAULO SILVEIRA',
@@ -96,6 +103,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       team: teams[1].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'JULIANA AMOASEI',
@@ -103,6 +111,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       team: teams[2].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'DANIEL ARTINE',
@@ -110,6 +119,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       team: teams[2].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'GUILHERME LIMA',
@@ -117,6 +127,7 @@ function App() {
       image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       team: teams[2].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'PAULO SILVEIRA',
@@ -124,6 +135,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       team: teams[2].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'JULIANA AMOASEI',
@@ -131,6 +143,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       team: teams[3].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'DANIEL ARTINE',
@@ -138,6 +151,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       team: teams[3].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'GUILHERME LIMA',
@@ -145,6 +159,7 @@ function App() {
       image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       team: teams[3].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'PAULO SILVEIRA',
@@ -152,6 +167,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       team: teams[3].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'JULIANA AMOASEI',
@@ -159,6 +175,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       team: teams[4].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'DANIEL ARTINE',
@@ -166,6 +183,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       team: teams[4].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'GUILHERME LIMA',
@@ -173,6 +191,7 @@ function App() {
       image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       team: teams[4].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'PAULO SILVEIRA',
@@ -180,6 +199,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       team: teams[4].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'JULIANA AMOASEI',
@@ -187,6 +207,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       team: teams[5].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'DANIEL ARTINE',
@@ -194,6 +215,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       team: teams[5].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'GUILHERME LIMA',
@@ -201,6 +223,7 @@ function App() {
       image: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       team: teams[5].name,
       id: uuidv4(),
+      favorite: false
     },
     {
       name: 'PAULO SILVEIRA',
@@ -208,6 +231,7 @@ function App() {
       image: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       team: teams[5].name,
       id: uuidv4(),
+      favorite: false
     },
   ]
 
@@ -230,6 +254,13 @@ function App() {
     setTeams([...teams, {...newTeam, id: uuidv4()}]);
   }
 
+  const handleFavorite = (id) => {
+    setEmployees(employees.map(employee => {
+      if(employee.id === id) employee.favorite = !employee.favorite;
+      return employee
+    }))
+  }
+
   return (
     <div className="App">
       <Banner />
@@ -246,6 +277,7 @@ function App() {
         onDelete={deleteEmployee}
         changeColor={changeColorTeam}
         id={team.id}
+        onFavorite={handleFavorite}
       />)}
       <Footer />
     </div>

@@ -17,6 +17,8 @@ const Team = (props) => {
                         headerColor={props.color}
                         onDelete={props.onDelete}
                         id={employee.id}
+                        favorite={employee.favorite}
+                        onFavorite={props.onFavorite}
                     />
                 })}
             </div>

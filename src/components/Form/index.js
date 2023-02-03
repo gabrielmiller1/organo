@@ -12,7 +12,7 @@ const Form = (props) => {
     const [image, setImage] = useState('');
     const [team, setTeam] = useState('');
     const [teamName, setTeamName] = useState('');
-    const [teamColor, setTeamColor] = useState('');
+    const [teamColor, setTeamColor] = useState('#FFFFFF');
 
     const onSave = (event) => {
         event.preventDefault();
