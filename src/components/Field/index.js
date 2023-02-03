@@ -1,6 +1,6 @@
-import './TextField.css'
+import './Field.css'
 
-const TextField = (props) => {
+const Field = (props) => {
     const modifyPlaceholder = `${props.placeholder}...`;
 
     const onTyping = (event) => {
@@ -10,9 +10,9 @@ const TextField = (props) => {
     return (
         <div className="text-field">
             <label htmlFor="">{props.label}</label>
-            <input value={props.value} onChange={onTyping} required={props.required} type="text" placeholder={modifyPlaceholder} />
+            <input type={props.type || 'text'} value={props.value} onChange={onTyping} required={props.required} placeholder={modifyPlaceholder} />
         </div>
     )
 }
 
-export default TextField;
+export default Field;

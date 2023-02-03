@@ -16,3 +16,8 @@
     font-size: 24px;
     padding: 24px;
 }
+
+.text-field input[type=color] {
+    height: 40px;
+    padding: 5px 24px;
+}

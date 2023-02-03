@@ -1,4 +1,4 @@
-import TextField from "../TextField";
+import Field from "../Field";
 import DropdownList from "../DropdownList";
 import Button from "../Button";
 import './Form.css';
@@ -32,21 +32,21 @@ const Form = (props) => {
         <section className="form">
             <form onSubmit={onSave}>
                 <h2>Preencha os dados para criar o card do colaborador.</h2>
-                <TextField
+                <Field
                     required={true}
                     label="Nome"
                     placeholder="Digite seu nome"
                     value={name}
                     onChanged={value => setName(value)}
                 />
-                <TextField
+                <Field
                     required={true}
                     label="Cargo"
                     placeholder="Digite seu Cargo"
                     value={position}
                     onChanged={value => setPosition(value)}
                 />
-                <TextField
+                <Field
                     label="Imagem"
                     placeholder="Digite o endereço da imagem"
                     value={image}
@@ -70,19 +70,20 @@ const Form = (props) => {
                 })
             }}>
                 <h2>Preencha os dados para criar o um novo time.</h2>
-                <TextField
+                <Field
                     required
                     label="Nome"
                     placeholder="Digite o nome do time"
                     value={teamName}
                     onChanged={value => setTeamName(value)}
                 />
-                <TextField
+                <Field
                     required={true}
-                    label="Cargo"
+                    label="Cor"
                     placeholder="Digite a cor do time"
                     value={teamColor}
                     onChanged={value => setTeamColor(value)}
+                    type='color'
                 />
                 <Button>
                     Criar time
